@@ -11,7 +11,7 @@ public class Task1 {
      * A word is a maximal substring consisting of non-space characters only.
      * <p>
      * Example input: "Hello World"
-     * Example output: 5
+     * Expected output: 5
      *
      * @param str - a string s consisting of some words separated by some number of spaces.
      * @return - the length of the last word in the string.
