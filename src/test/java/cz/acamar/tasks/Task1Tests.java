@@ -22,7 +22,12 @@ public class Task1Tests {
         return Stream.of(
                 Arguments.of("Hello world", 5),
                 Arguments.of("   fly me   to   the moon  ", 4),
-                Arguments.of("William Shakespeare was an English   playwright", 10)
+                Arguments.of("", 0),
+                Arguments.of("   ", 0),
+                Arguments.of("William Shakespeare was an English   playwright", 10),
+                Arguments.of("nnn \nПривет", 7),
+                Arguments.of("bbb\t aa", 2),
+                Arguments.of("ccc \raaa", 4)
         );
     }
 }

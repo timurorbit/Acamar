@@ -24,4 +24,12 @@ public class Task2Tests {
         assertArrayEquals(expected, task2.squaresOfSortedArray(input));
     }
 
+    @Test
+    void test_case3() {
+        int[] input = new int[]{-4, -3, -10, 0, 0};
+        int[] expected = new int[]{0, 0, 9, 16, 100};
+
+        assertArrayEquals(expected, task2.squaresOfSortedArray(input));
+    }
+
 }
